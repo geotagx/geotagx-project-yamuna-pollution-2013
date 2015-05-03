@@ -1,0 +1,130 @@
+{
+	"name":"Visible Pollution",
+	"short_name":"yamuna2013_poll",
+	"category":"Yamuna Monsoon Flooding 2013",
+	"description":"Identify visible pollution in the Yamuna River.",
+	"why":"With this project, we hope to extract data on visible pollution in waters of the 2013 flooding of the Yamuna river.",
+	"questions":[
+		{
+			"id":1,
+			"title":"Can you see any water in the photo?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"water"
+			},
+			"branch":[
+				{"no":"finish"}
+			]
+		},
+		{
+			"id":2,
+			"title":"What is the colour of the water?",
+			"type":"single_choice",
+			"answer":{
+				"saved_as":"waterColour",
+				"choices":[
+					{"LightBrown":"Light brown"},
+					{"DarkBrown":"Dark brown"},
+					{"Green":"Green"},
+					{"Clear":"Clear"}
+				]
+			}
+		},
+		{
+			"id":3,
+			"title":"Can you see rubbish floating in the water?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"floatingRubbish"
+			}
+		},
+		{
+			"id":4,
+			"title":"Can you see piles of dumped household or industrial waste?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"industrialWaste"
+			}
+		},
+		{
+			"id":5,
+			"title":"Can you see an open sewer (nullah)?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"openSewer"
+			}
+		},
+		{
+			"id":6,
+			"title":"Can you see chemical foam?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"chemicalFoam"
+			}
+		},
+		{
+			"id":7,
+			"title":"Can you see plastic bags in or near the water?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"plasticBags"
+			}
+		},
+		{
+			"id":8,
+			"title":"Can you see pieces of plastic in or near the water?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"plasticPieces"
+			}
+		},
+		{
+			"id":9,
+			"title":"Can you see faeces?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"faeces"
+			}
+		},
+		{
+			"id":10,
+			"title":"Can you see dead fish floating in the water?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"deadFish"
+			}
+		},
+		{
+			"id":11,
+			"title":"Can you see motorised vehicles?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"motorisedVehicles"
+			}
+		},
+		{
+			"id":12,
+			"title":"Can you see any bikes or cycle rickshaws in the water?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"bikes"
+			}
+		},
+		{
+			"id":13,
+			"title":"Can you see powerlines in or near the water?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"powerlines"
+			}
+		},
+		{
+			"id":14,
+			"title":"Can you see furniture or other household items in or near the water?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"householdItems"
+			}
+		}
+	]
+}
