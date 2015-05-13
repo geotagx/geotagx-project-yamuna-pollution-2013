@@ -1,0 +1,126 @@
+{
+	"tutorial":[
+		{
+			"image":"http://images.indianexpress.com/2013/06/m_id_394934_yamuna_floods.jpg",
+			"image_source":"http://archive.indianexpress.com/news/yamuna-water-nears-1978-record-outlying-delhi-areas-flooded-1-dead/1131152/",
+			"assertions":{
+				"1":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! There is water in this photo.",
+						"no":"Are you sure there is no water? If you are looking at flood waters there might be buildings in the water."
+					}
+				},
+				"2":{
+					"expects":"lightbrown",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"lightbrown":"Well done! The water in the foreground of this photo has a light brown colour suggesting high sediment load."
+					}
+				},
+				"3":{
+					"expects":"unknown",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"unknown":"Well done! While we can see objects floating in the water, nothing suggests that they may be rubbish.",
+						"yes":"Are you absolutely sure the objects floating in the water are rubbish?",
+						"no":"Are you absolutely sure the objects floating in the water are not rubbish?"
+					}
+				},
+				"4":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"no":"Well done! There are no visible piles of dumped household or industrial waste.",
+						"yes":"Are you sure there are piles of dumped household or industrial waste in this photo? If you are not sure what to look for, check out the help for more information."
+					}
+				},
+				"5":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"no":"Correct! It is possible there is an open sewer but it may be completely submerged by the floodwater.",
+						"yes":"Are you absolutely sure you see an open sewer?"
+					}
+				},
+				"6":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"no":"Well done! There is no chemical foam visible in this photo.",
+						"yes":"Are you sure you can see chemical foam? If you are not sure what to look for, check out the help for more information."
+					}
+				},
+				"7":{
+					"expects":"unknown",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"unknown":"Well done! There are objects floating in the water, but nothing suggests that they are plastic bags.",
+						"yes":"Are you absolutely sure the objects floating in the water are plastic bags?",
+						"no":"Are you absolutely sure the objects floating in the water are not plastic bags?"
+					}
+				},
+				"8":{
+					"expects":"unknown",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"unknown":"Well done! The floating objects may or may not be pieces of plastic. It is very hard to tell in this photo.",
+						"yes":"Are you absolutely sure the objects floating in the water are pieces of plastic?",
+						"no":"Are you absolutely sure the objects floating in the water are not pieces of plastic?"
+					}
+				},
+				"9":{
+					"expects":"unknown",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"unknown":"Well done! While we can see objects floating in the water, nothing suggests that they may be faecal matter.",
+						"yes":"Are you absolutely sure the objects floating in the water are faeces?",
+						"no":"Are you absolutely sure the objects floating in the water are not faeces?"
+					}
+				},
+				"10":{
+					"expects":"unknown",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"unknown":"Well done! There are floating objects in the floodwaters but it is hard to tell whether or not some of them are dead fish.",
+						"yes":"Are you absolutely sure the objects floating in the water are dead fish?",
+						"no":"Are you absolutely sure the objects floating in the water are not dead fish?"
+					}
+				},
+				"11":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"no":"Correct! There are no motorised vehicles in the photo.",
+						"yes":"Are you sure you can see motorised vehicles in the photo? If you are not sure what to look for, check out the help for more information."
+					}
+				},
+				"12":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"no":"Correct! There are no visible bikes or cycle rickshaws in the photo.",
+						"yes":"While there are floating objects in the photo, are you sure any of them are bikes or cycle rickshaws? Take a closer look."
+					}
+				},
+				"13":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Correct! If you take a closer look, you can see power lines running between the buildings in the photos.",
+						"no":"Are you sure you cannot see any powerlines in the photo? Take a closer look."
+					}
+				},
+				"14":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"no":"Well done! The objects on the top of the buildings look like household items but they are a safe distance from the water.",
+						"yes":"While it appears that household items can be seen in this photo, are they in close proximity to the water?"
+					}
+				}
+			}
+		}
+	]
+}
