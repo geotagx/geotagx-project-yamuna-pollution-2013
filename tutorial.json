@@ -4,7 +4,7 @@
 			"image":"http://images.indianexpress.com/2013/06/m_id_394934_yamuna_floods.jpg",
 			"image_source":"http://archive.indianexpress.com/news/yamuna-water-nears-1978-record-outlying-delhi-areas-flooded-1-dead/1131152/",
 			"assertions":{
-				"1":{
+				"water":{
 					"expects":"yes",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -12,14 +12,14 @@
 						"no":"Are you sure there is no water? If you are looking at flood waters there might be buildings in the water."
 					}
 				},
-				"2":{
+				"waterColour":{
 					"expects":"lightbrown",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
 						"lightbrown":"Well done! The water in the foreground of this photo has a light brown colour suggesting high sediment load."
 					}
 				},
-				"3":{
+				"floatingRubbish":{
 					"expects":"unknown",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -28,7 +28,7 @@
 						"no":"Are you absolutely sure the objects floating in the water are not rubbish?"
 					}
 				},
-				"4":{
+				"industrialWaste":{
 					"expects":"no",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -36,7 +36,7 @@
 						"yes":"Are you sure there are piles of dumped household or industrial waste in this photo? If you are not sure what to look for, check out the help for more information."
 					}
 				},
-				"5":{
+				"openSewer":{
 					"expects":"no",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -44,7 +44,7 @@
 						"yes":"Are you absolutely sure you see an open sewer?"
 					}
 				},
-				"6":{
+				"chemicalFoam":{
 					"expects":"no",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -52,7 +52,7 @@
 						"yes":"Are you sure you can see chemical foam? If you are not sure what to look for, check out the help for more information."
 					}
 				},
-				"7":{
+				"plasticBags":{
 					"expects":"unknown",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -61,7 +61,7 @@
 						"no":"Are you absolutely sure the objects floating in the water are not plastic bags?"
 					}
 				},
-				"8":{
+				"plasticPieces":{
 					"expects":"unknown",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -70,7 +70,7 @@
 						"no":"Are you absolutely sure the objects floating in the water are not pieces of plastic?"
 					}
 				},
-				"9":{
+				"faeces":{
 					"expects":"unknown",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -79,7 +79,7 @@
 						"no":"Are you absolutely sure the objects floating in the water are not faeces?"
 					}
 				},
-				"10":{
+				"deadFish":{
 					"expects":"unknown",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -88,7 +88,7 @@
 						"no":"Are you absolutely sure the objects floating in the water are not dead fish?"
 					}
 				},
-				"11":{
+				"motorisedVehicles":{
 					"expects":"no",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -96,7 +96,7 @@
 						"yes":"Are you sure you can see motorised vehicles in the photo? If you are not sure what to look for, check out the help for more information."
 					}
 				},
-				"12":{
+				"bikes":{
 					"expects":"no",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -104,7 +104,7 @@
 						"yes":"While there are floating objects in the photo, are you sure any of them are bikes or cycle rickshaws? Take a closer look."
 					}
 				},
-				"13":{
+				"powerlines":{
 					"expects":"yes",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -112,7 +112,7 @@
 						"no":"Are you sure you cannot see any powerlines in the photo? Take a closer look."
 					}
 				},
-				"14":{
+				"householdItems":{
 					"expects":"no",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
