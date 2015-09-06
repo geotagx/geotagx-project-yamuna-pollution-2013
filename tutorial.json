@@ -20,10 +20,10 @@
 					}
 				},
 				"floatingRubbish":{
-					"expects":"unknown",
+					"expects":"notclear",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
-						"unknown":"Well done! While we can see objects floating in the water, nothing suggests that they may be rubbish.",
+						"notclear":"Well done! While we can see objects floating in the water, the image is not clear enough for us to suggest that it may be waste material.",
 						"yes":"Are you absolutely sure the objects floating in the water are rubbish?",
 						"no":"Are you absolutely sure the objects floating in the water are not rubbish?"
 					}
@@ -53,37 +53,37 @@
 					}
 				},
 				"plasticBags":{
-					"expects":"unknown",
+					"expects":"notclear",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
-						"unknown":"Well done! There are objects floating in the water, but nothing suggests that they are plastic bags.",
+						"notclear":"Well done! While we can see objects floating in the water, the image is not clear enough for us to suggest that they may be plastic bags.",
 						"yes":"Are you absolutely sure the objects floating in the water are plastic bags?",
 						"no":"Are you absolutely sure the objects floating in the water are not plastic bags?"
 					}
 				},
 				"plasticPieces":{
-					"expects":"unknown",
+					"expects":"notclear",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
-						"unknown":"Well done! The floating objects may or may not be pieces of plastic. It is very hard to tell in this photo.",
+						"notclear":"Well done! The floating objects may or may not be pieces of plastic. It is very hard to tell in this photo.",
 						"yes":"Are you absolutely sure the objects floating in the water are pieces of plastic?",
 						"no":"Are you absolutely sure the objects floating in the water are not pieces of plastic?"
 					}
 				},
 				"faeces":{
-					"expects":"unknown",
+					"expects":"notclear",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
-						"unknown":"Well done! While we can see objects floating in the water, nothing suggests that they may be faecal matter.",
+						"notclear":"Well done! While we can see objects floating in the water, the image is not clear enough for us to suggest that it may be faecal matter.",
 						"yes":"Are you absolutely sure the objects floating in the water are faeces?",
 						"no":"Are you absolutely sure the objects floating in the water are not faeces?"
 					}
 				},
 				"deadFish":{
-					"expects":"unknown",
+					"expects":"notclear",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
-						"unknown":"Well done! There are floating objects in the floodwaters but it is hard to tell whether or not some of them are dead fish.",
+						"notclear":"Well done! There are floating objects in the floodwaters but it is hard to tell whether or not some of them are dead fish.",
 						"yes":"Are you absolutely sure the objects floating in the water are dead fish?",
 						"no":"Are you absolutely sure the objects floating in the water are not dead fish?"
 					}
